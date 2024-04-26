@@ -1,5 +1,6 @@
 public class Main{
     public static void main(String[] args) {
-        System.out.println("Hello world");
+        StringBuffer sb=new StringBuffer("racecar");
+        System.out.println(sb.reverse());
     }
 }
